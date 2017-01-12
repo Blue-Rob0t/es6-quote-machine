@@ -908,6 +908,24 @@ a {
   }
 }
 
+.site-title {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+@media (min-width: 800px) {
+
+  .site-title {
+    font-size: 3.75rem;
+  }
+}
+
+.site-title strong {
+  font-weight: 500;
+}
+
 .feature-item {
   position: relative;
   padding-bottom: 2.5rem;
@@ -1102,7 +1120,7 @@ Instead edit gulp/templates/sprite */
 
 .site-header {
   padding: 10px 0;
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   z-index: 2;
   -webkit-transition: background-color .5s ease-out;
@@ -1115,8 +1133,7 @@ Instead edit gulp/templates/sprite */
 
 @media (min-width: 800px) {
 
-  .site-header {
-    position: fixed;
+  .site-header {/*position: fixed;*/
     background-color: rgba(47,85,114, .3);
   }
 
@@ -1344,8 +1361,8 @@ Instead edit gulp/templates/sprite */
 
   .primary-nav a {
     font-size: 1rem;
-    padding: 12px 0;
-    background-color: transparent;
+    padding: 12px 0;/*background-color: transparent;*/
+    background-color: rgba(47,85,114, .5);
   }
 
   .primary-nav a.is-current-link {

@@ -1,6 +1,6 @@
 .site-header {
   padding: 10px 0;
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   z-index: 2;
   transition: background-color .5s ease-out;
@@ -10,7 +10,7 @@
   }
 
   @mixin atMedium {
-    position: fixed;
+    /*position: fixed;*/
     background-color: rgba($mainBlue, .3);
 
     &--is-med-dark {
