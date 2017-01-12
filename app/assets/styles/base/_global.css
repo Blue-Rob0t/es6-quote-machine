@@ -1,0 +1,20 @@
+body {
+  /*font is roboto - fail-safe font is san-s*/
+  font-family: 'Roboto', sans-serif;
+  /*default color for page is dark grey*/
+  color: #333;
+}
+
+/*makes it so images fit screen width*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+/**/
+* {
+  box-sizing: border-box;
+}
+/**/
+a {
+  color: $mainOrange;
+}
