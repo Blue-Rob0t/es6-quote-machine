@@ -10,7 +10,8 @@
   }
 
   @mixin atMedium {
-    /*position: fixed;*/
+    /*position:
+    ;*/
     background-color: rgba($mainBlue, .3);
 
     &--is-med-dark {

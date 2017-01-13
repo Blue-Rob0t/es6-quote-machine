@@ -41,8 +41,8 @@
 
     @mixin atMedium {
       font-size: 1rem;
-      padding: 12px 0;
-      /*background-color: transparent;*/
+      /*padding: 12px 0;*/
+      background-color: transparent;
       background-color: rgba($mainBlue, .5);
 
       &.is-current-link {
