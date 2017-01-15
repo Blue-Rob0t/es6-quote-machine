@@ -544,6 +544,10 @@ a {
   }
 }
 
+.btn--point{
+  cursor: pointer;
+}
+
 .wrapper {
   overflow: hidden;
   padding-left: 18px;
@@ -1319,7 +1323,7 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px) {
 
   .primary-nav a {
-    font-size: 1rem;/*padding: 12px 0;*/
+    font-size: 2rem;/*padding: 12px 0;*/
     background-color: transparent;
     background-color: rgba(47,85,114, .5);
   }
@@ -1409,6 +1413,7 @@ Instead edit gulp/templates/sprite */
   width: 33%;
   height: 72px;
   position: relative;
+  border-radius: 50%;
 }
 
 @media (min-width: 530px) {
@@ -1428,6 +1433,10 @@ Instead edit gulp/templates/sprite */
           transform: translate(-50%, -50%);
 }
 
+.floater{
+  float: right;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -1443,6 +1452,9 @@ blockquote:before,blockquote:after {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  position: relative;
+  top:15px;
+  left:15px;
 }
 
 @media (min-width: 800px) {

@@ -4,7 +4,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <title>Clear View Escapes</title>
+  <title>ES6 Qutoe Generator</title>
   <meta name="keywords" content="#"> <!--fill # with relavant content-->
   <meta name="description" content="#"> <!--fill # with relavant content-->
 
@@ -41,16 +41,14 @@
 <section>
   <div class="page-section">
     <div class="wrapper">
-        <blockquote class="blocked-quote">
-            <p class="para">You can quote them,
-               disagree with them,
-                glorify or vilify them.
-                 About the only thing you can't do is ignore them.
-                  Because they change things.
-                   They push the human race forward. </p>
+      <div class="fader">
+        <blockquote id ="quote-area" class="blocked-quote">
+            <p class="para">Click the button below the generate quote </p>
         </blockquote>
-        <button type="button" name="button" class="btn">Generate</button>
-        <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+        <p id= "author"></p>
+      </div>
+        <button type="button" name="button" id='generate' class="btn--large btn btn--point">Generate</button>
+        <a id="generate-twitter" href="" class="floater social-icons__icon"><span class="icon icon--twitter"></span></a>
 
     </div>
 

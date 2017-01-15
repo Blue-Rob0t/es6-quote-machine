@@ -12,6 +12,9 @@ blockquote:before,blockquote:after {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  position: relative;
+  top:15px;
+  left:15px;
   @mixin atMedium{
     font-size: 4em;
   }
