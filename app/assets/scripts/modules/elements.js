@@ -1,6 +1,6 @@
 // change functionality of api call
 
-
+// exporting variables 
 // #quote-area of html document
 export const ELEMENT_QUOTE_AREA               = document.querySelector("#quote-area");
 // quote author

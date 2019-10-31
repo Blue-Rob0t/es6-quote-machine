@@ -7,5 +7,7 @@
 import * as ELEMENTS from './modules/elements'
 import randomQuote from './modules/RandomQuote'
 import tweet from  './modules/Tweet'
+// gets data and fade in jquery funtionality
 ELEMENTS.ELEMENT_GENERATE_BUTTON.addEventListener('click', randomQuote);
+// allows tweet functionality
 ELEMENTS.ELEMENT_GENERATE_BUTTON_TWITTER.addEventListener('click',tweet);
